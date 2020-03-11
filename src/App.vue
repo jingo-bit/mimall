@@ -9,15 +9,5 @@
 </template>
 
 <style>
-	* {
-		padding: 0;
-		margin: 0;
-		box-sizing: border-box;
-		text-decoration: none;
-		list-style: none;
-	}	
-	#app{
-		min-width: 700px;
-		max-width: 1700px;
-	}
+	@import url("assets/css/_base.css");
 </style>

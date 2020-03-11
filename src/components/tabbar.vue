@@ -8,9 +8,9 @@
 		<div class="right">
 			<li>登陆</li>
 			<li>注册</li>
-			<li class="add-shopping-btn">添加购物车</li>
+			<button class="add-shopping-btn">添加购物车</button>
 		</div>
-		
+
 	</div>
 </template>
 
@@ -21,35 +21,48 @@
 </script>
 
 <style scoped="scoped">
+	.tabbar {
 		width: 100%;
-		background: rgba(51,51,51,1);
+		background: rgba(51, 51, 51, 1);
 		margin: auto;
 		display: flex;
 		justify-content: space-between;
 		align-content: center;
 		padding: 0 22px;
 	}
-	.left,.right{
+
+	.left,
+	.right {
 		display: flex;
 		/* padding: 10px; */
 	}
-	.left li,.right li{
+
+	.left li,
+	.right li {
 		font-size: 12px;
 		margin: 0 10px;
 		color: #B0B0B0;
 		line-height: 30px;
 	}
-	.left li:hover,.right li:hover{
+
+	.left li:hover,
+	.right li:hover {
 		color: aquamarine;
 		cursor: pointer;
 	}
-	.add-shopping-btn{
-		background: rgba(102,102,102,1);
-		display: block;
+
+	.add-shopping-btn {
+		background: rgba(102, 102, 102, 1);
+		display: inline-block;
 		height: 30px;
 		width: 110px;
 		text-align: center;
 		line-height: 30px;
+		border: none;
+		
 	}
-	
+	.add-shopping-btn:hover{
+		background: #000000;
+		color: #FFFFFF;
+	}
 </style>

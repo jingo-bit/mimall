@@ -1,19 +1,28 @@
 <template>
 	<div class="home">
 		<Tabbar></Tabbar>
+		<Serch></Serch>
+		<Banner></Banner>
+		<Ad></Ad>
+		<Phone></Phone>
 	</div>
 </template>
 
 <script>
-	// @ is an alias to /src
-	// import HelloWorld from '@/components/HelloWorld.vue'
 	import Tabbar from '@/components/tabbar.vue'
+	import Banner from '@/components/banner.vue'
+	import Serch from '@/components/serch.vue'
+	import Ad from '@/components/Ad.vue'
+	import Phone from '@/components/Phone.vue'
 
 	export default {
 		name: 'Home',
 		components: {
-			// HelloWorld,
-			Tabbar
+			Tabbar,
+			Banner,
+			Serch,
+			Ad,
+			Phone,
 		}
 	}
 </script>
